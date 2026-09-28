@@ -119,6 +119,7 @@ export const LifestyleSection: React.FC<LifestyleSectionProps> = ({ onOrderClick
         {/* Visual Call To Action */}
         <div className="text-center">
           <button
+            type="button"
             onClick={onOrderClick}
             className="inline-flex items-center gap-2 bg-[#DC2626] hover:bg-[#b91c1c] text-white font-bold px-8 py-3.5 rounded-lg text-sm transition-all shadow-md shadow-red-600/20 cursor-pointer active:scale-95"
           >

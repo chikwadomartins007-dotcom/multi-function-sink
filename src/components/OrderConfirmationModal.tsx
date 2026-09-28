@@ -22,6 +22,7 @@ export const OrderConfirmationModal: React.FC<OrderConfirmationModalProps> = ({ 
         
         {/* Close Button */}
         <button
+          type="button"
           onClick={onClose}
           className="absolute top-4 right-4 bg-gray-100 hover:bg-gray-200 text-[#111827] p-2 rounded-full cursor-pointer transition-colors"
           aria-label="Close confirmation dialog"
@@ -112,6 +113,7 @@ export const OrderConfirmationModal: React.FC<OrderConfirmationModalProps> = ({ 
           </a>
 
           <button
+            type="button"
             onClick={() => window.print()}
             className="w-full bg-white hover:bg-gray-50 text-[#111827] font-bold text-xs py-2.5 px-4 rounded-lg transition-colors flex items-center justify-center gap-1.5 cursor-pointer border border-gray-300"
           >

@@ -46,6 +46,7 @@ export const FinalCTASection: React.FC<FinalCTASectionProps> = ({ onOrderClick }
 
           {/* Big CTA */}
           <button
+            type="button"
             onClick={onOrderClick}
             className="w-full mt-6 bg-[#DC2626] hover:bg-[#b91c1c] text-white font-black text-base py-4 px-8 rounded-xl shadow-xl shadow-red-600/30 hover:shadow-red-600/50 transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-98 tracking-wide"
           >

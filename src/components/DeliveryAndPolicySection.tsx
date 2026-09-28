@@ -52,6 +52,7 @@ export const DeliveryAndPolicySection: React.FC = () => {
                   </h4>
                 </div>
                 <button
+                  type="button"
                   onClick={() => setTermsExpanded(!termsExpanded)}
                   className="text-xs text-[#DC2626] font-black hover:underline flex items-center gap-1 cursor-pointer"
                 >

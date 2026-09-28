@@ -27,6 +27,7 @@ export const PromotionalBanner: React.FC<PromotionalBannerProps> = ({ onOrderCli
         </div>
 
         <button
+          type="button"
           onClick={onOrderClick}
           className="ml-auto bg-[#111827] hover:bg-black text-white hover:text-red-200 px-3.5 py-1 rounded text-xs font-black transition-colors shadow-sm flex items-center gap-1 cursor-pointer whitespace-nowrap"
         >

@@ -47,6 +47,12 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({ onOrderClick }) 
               {/* Floating Limited Time Offer Badge */}
               <div
                 onClick={onOrderClick}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    onOrderClick();
+                  }
+                }}
                 role="button"
                 tabIndex={0}
                 title="Limited Time Offer: Click to claim discount"
@@ -216,6 +222,13 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({ onOrderClick }) 
             onClick={() => {
               setLightboxOpen(false);
               onOrderClick();
+            }}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                setLightboxOpen(false);
+                onOrderClick();
+              }
             }}
             role="button"
             tabIndex={0}

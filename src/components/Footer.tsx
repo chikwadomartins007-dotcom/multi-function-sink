@@ -51,6 +51,7 @@ export const Footer: React.FC<FooterProps> = ({ onOrderClick }) => {
               </li>
               <li>
                 <button
+                  type="button"
                   onClick={onOrderClick}
                   className="hover:text-[#DC2626] transition-colors text-left cursor-pointer"
                 >

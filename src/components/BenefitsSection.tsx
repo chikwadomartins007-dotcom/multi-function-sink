@@ -69,6 +69,7 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOrderClick }
           </div>
 
           <button
+            type="button"
             onClick={onOrderClick}
             className="bg-[#DC2626] hover:bg-[#b91c1c] text-white font-bold px-6 py-3 rounded-lg text-sm transition-all shadow-md flex items-center gap-2 cursor-pointer shrink-0 active:scale-95"
           >

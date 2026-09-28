@@ -318,7 +318,7 @@ export const QuickOrderModal: React.FC<QuickOrderModalProps> = ({
               {[
                 { qty: 1, label: '1 Piece', sub: '₦115,000' },
                 { qty: 2, label: '2 Pieces', sub: '₦110,000 ea', badge: 'POPULAR' },
-                { qty: 3, label: '3 Pieces', sub: '₦106,667 ea', badge: 'BEST DEAL' },
+                { qty: 3, label: '3 Pieces', sub: '₦105,000 ea', badge: 'BEST DEAL' },
               ].map((item) => {
                 const isSelected = quantity === item.qty;
                 return (
